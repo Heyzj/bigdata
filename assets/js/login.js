@@ -22,10 +22,7 @@ $(function () {
 
         }
     })
-    // 统一根路径管理url
-    $.ajaxPrefilter(function (options) {
-        options.url = 'http://ajax.frontend.itheima.net' + options.url
-    })
+
     // 发起ajax注册效验
     $('#regForm').on('submit', function (e) {
         e.preventDefault()
