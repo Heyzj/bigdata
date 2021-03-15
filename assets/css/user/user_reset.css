@@ -1,0 +1,8 @@
+html, body {
+    background: #cccccc;
+    padding: 10px;
+}
+
+.layui-input-inline {
+    width: 250px!important;
+}

@@ -1,0 +1,14 @@
+html, body {
+    background: #cccccc;
+    padding: 10px;
+    font-family: '楷体', sans-serif;
+    font-size: 16px;
+}
+
+.layui-form {
+    width: 60%;
+}
+
+input:focus {
+    box-shadow: 1px 1px 4px #2D93CA;
+}
