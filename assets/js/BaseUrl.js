@@ -1,4 +1,6 @@
 // 统一根路径管理url
+// 原接口：http://ajax.frontend.itheima.net
+// 备用接口： http://api-breakingnews-web.itheima.net/
 $.ajaxPrefilter(function (options) {
     options.url = 'http://ajax.frontend.itheima.net' + options.url
     if (options.url.indexOf('/my/') !== -1) {
